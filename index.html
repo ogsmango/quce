@@ -1,0 +1,1274 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Товарная биржа</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex flex-wrap flex-md-nowrap justify-content-between align-items-center py-3">
+                <div class="me-3 mb-3 mb-md-0">
+                    <a class="blog-header-logo d-inline-block text-dark" href="#">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="vr d-none d-md-block"></div>
+                <div class="d-flex mb-3 mb-md-0">
+                    <div class="header-wrapper mx-3">
+                        <p class="currency d-flex justify-content-between align-items-center text-uppercase">
+                            USD
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 15L12 8L17 15H7Z" fill="#00B83E" />
+                            </svg>
+                        </p>
+                        <p class="main-semibold">434,51</p>
+                    </div>
+                    <div class="header-wrapper mx-3">
+                        <p class="currency d-flex justify-content-between align-items-center text-uppercase">
+                            EUR
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 9L12 16L7 9L17 9Z" fill="#FF0000" />
+                            </svg>
+                        </p>
+                        <p class="main-semibold">465,71</p>
+                    </div>
+                    <div class="header-wrapper mx-3">
+                        <p class="currency d-flex justify-content-between align-items-center text-uppercase">
+                            RUB
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 9L12 16L7 9L17 9Z" fill="#FF0000" />
+                            </svg>
+                        </p>
+                        <p class="main-semibold">7,45</p>
+                    </div>
+                </div>
+                <div class="vr d-none d-md-block"></div>
+                <div class="d-flex flex-wrap flex-lg-nowrap mb-3 mb-sm-0">
+                    <div class="header-wrapper mx-3">
+                        <p class="currency d-flex justify-content-between align-items-center">
+                            Телефон
+                        </p>
+                        <p class="main-semibold">+7 (771)217-01-00</p>
+                    </div>
+                    <div class="header-wrapper mx-3">
+                        <p class="currency d-flex justify-content-between align-items-center">
+                            Email
+                        </p>
+                        <p class="main-semibold">quce.kz@gmail.com</p>
+                    </div>
+                </div>
+                <div class="vr d-none d-md-block"></div>
+                <div class="d-flex">
+                    <p class="d-flex align-items-center main-semibold ms-3">
+                        <svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z"
+                                fill="#F8F8F8" />
+                            <path
+                                d="M23.2536 16.174C23.736 14.874 24 13.4679 24 12.0001C24 10.5322 23.736 9.12616 23.2536 7.82617H0.746391C0.264047 9.12616 0 10.5322 0 12.0001C0 13.4679 0.264047 14.874 0.746391 16.174L12 17.2174L23.2536 16.174Z"
+                                fill="#0052B4" />
+                            <path
+                                d="M11.9999 23.9999C17.1595 23.9999 21.558 20.7434 23.2536 16.1738H0.746338C2.44185 20.7434 6.84037 23.9999 11.9999 23.9999Z"
+                                fill="#D80027" />
+                        </svg>
+                        RU
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu main-bg-dark d-flex align-items-center">
+            <div class="container">
+                <nav class="nav d-flex justify-content-between align-items-center">
+                    <div class="dropdown">
+                        <a class="main-semibold accent d-flex align-items-center" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg class="me-3" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="4" width="20" height="2" fill="#BDAB84" />
+                                <rect x="2" y="11" width="20" height="2" fill="#BDAB84" />
+                                <rect x="2" y="18" width="20" height="2" fill="#BDAB84" />
+                            </svg>
+                            Меню
+                        </a>
+                        <div class="row py-3 py-lg-5 px-2 px-lg-4 mb-3 mb-lg-5 dropdown-menu"
+                            aria-labelledby="dropdownMenuLink">
+                            <div class="col-lg-3 col-sm-6 col-12 mb-4 mb-lg-0">
+                                <h3 class="headline-3 primary-black mb-3 mb-md-4">Карта сайта</h3>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Тарифы</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Брокеры</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Документы</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Новости</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Клиринг</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Биржевой арбитраж</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Политика конфиденциальности</a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12 mb-4 mb-lg-0">
+                                <h3 class="headline-3 primary-black mb-3 mb-md-4">Товары</h3>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Золото</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Серебро</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Нефть</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Уголь</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Алюминий</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Сжиженный газ</a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12 mb-4 mb-lg-0">
+                                <h3 class="headline-3 primary-black mb-3 mb-md-4">О бирже</h3>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Общая информация</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Лицензии и сертификаты</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Финансовая отчетность</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Вакансии</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Часто задаваемые вопросы</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Реквизиты</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Контакты</a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12 mb-0 mb-lg-0">
+                                <h3 class="headline-3 primary-black mb-3 mb-md-4">Торги</h3>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Покупки</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Продажи</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Расписание торгов</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Покупки по апрель 2022 г.</a>
+                                <a class="d-block primary-black mb-2 mb-lg-3" href="#">Покупки по декабрь 2021 г.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="py-4 main-semibold primary-white" href="#">Товары</a>
+                    <a class="py-4 main-semibold primary-white" href="#">О бирже</a>
+                    <a class="py-4 main-semibold primary-white d-none d-sm-block" href="#">Торги</a>
+                    <a class="py-4 main-semibold primary-white d-none d-sm-block" href="#">Тарифы</a>
+                    <a class="py-4 main-semibold primary-white d-none d-sm-block" href="#">Брокеры</a>
+                    <a class="py-4 main-semibold primary-white d-none d-md-block" href="#">Документы</a>
+                    <a class="py-4 main-semibold primary-white d-none d-md-block" href="#">Новости</a>
+                    <a class="py-4 main-semibold primary-white d-none d-md-block" href="#">Клиринг</a>
+                    <a class="py-4 main-semibold primary-white d-none d-lg-block" href="#">Биржевой арбитраж</a>
+                    <a class="main-semibold accent d-flex align-items-center" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21 21L15.6569 15.6569M15.6569 15.6569C17.1046 14.2091 18 12.2091 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18C12.2091 18 14.2091 17.1046 15.6569 15.6569Z"
+                                stroke="white" stroke-width="2" stroke-linecap="square" />
+                        </svg>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Шаблон вверх -->
+
+        <div class="hero my-4 my-lg-5 pb-3 pb-lg-5">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-bg-1 rounded px-4 px-lg-5 py-3 py-lg-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 px-4 px-lg-5 py-3 py-lg-4">
+                                <h1 class="headline-1 primary-white pb-3 pb-lg-5">Qazaqstan Universal Commodity Exchange
+                                    - 5 лет уверенного роста</h1>
+                                <p class="primary-white pb-3 pb-lg-5">Товарная биржа QUCE вобрала в себя весь передовой
+                                    опыт организации торговли как на территории Казахстана, так и опыт дальнего и
+                                    ближнего зарубежья.</p>
+                                <a class="accent main-semibold d-flex align-items-center" href="#">
+                                    Подробнее о бирже
+                                    <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-bg-1 rounded px-4 px-lg-5 py-3 py-lg-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 px-4 px-lg-5 py-3 py-lg-4">
+                                <h1 class="headline-1 primary-white pb-3 pb-lg-5">Qazaqstan Universal Commodity Exchange
+                                    - 5 лет уверенного роста</h1>
+                                <p class="primary-white pb-3 pb-lg-5">Товарная биржа QUCE вобрала в себя весь передовой
+                                    опыт организации торговли как на территории Казахстана, так и опыт дальнего и
+                                    ближнего зарубежья.</p>
+                                <a class="accent main-semibold d-flex align-items-center" href="#">
+                                    Подробнее о бирже
+                                    <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-bg-1 rounded px-4 px-lg-5 py-3 py-lg-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 px-4 px-lg-5 py-3 py-lg-4">
+                                <h1 class="headline-1 primary-white pb-3 pb-lg-5">Qazaqstan Universal Commodity Exchange
+                                    - 5 лет уверенного роста</h1>
+                                <p class="primary-white pb-3 pb-lg-5">Товарная биржа QUCE вобрала в себя весь передовой
+                                    опыт организации торговли как на территории Казахстана, так и опыт дальнего и
+                                    ближнего зарубежья.</p>
+                                <a class="accent main-semibold d-flex align-items-center" href="#">
+                                    Подробнее о бирже
+                                    <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-bg-1 rounded px-4 px-lg-5 py-3 py-lg-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 px-4 px-lg-5 py-3 py-lg-4">
+                                <h1 class="headline-1 primary-white pb-3 pb-lg-5">Qazaqstan Universal Commodity Exchange
+                                    - 5 лет уверенного роста</h1>
+                                <p class="primary-white pb-3 pb-lg-5">Товарная биржа QUCE вобрала в себя весь передовой
+                                    опыт организации торговли как на территории Казахстана, так и опыт дальнего и
+                                    ближнего зарубежья.</p>
+                                <a class="accent main-semibold d-flex align-items-center" href="#">
+                                    Подробнее о бирже
+                                    <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-bg-1 rounded px-4 px-lg-5 py-3 py-lg-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 px-4 px-lg-5 py-3 py-lg-4">
+                                <h1 class="headline-1 primary-white pb-3 pb-lg-5">Qazaqstan Universal Commodity Exchange
+                                    - 5 лет уверенного роста</h1>
+                                <p class="primary-white pb-3 pb-lg-5">Товарная биржа QUCE вобрала в себя весь передовой
+                                    опыт организации торговли как на территории Казахстана, так и опыт дальнего и
+                                    ближнего зарубежья.</p>
+                                <a class="accent main-semibold d-flex align-items-center" href="#">
+                                    Подробнее о бирже
+                                    <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination d-flex align-items-center ms-3 ms-lg-4 ps-4 ps-lg-5 pb-3 pb-lg-4"></div>
+                <div class="hero-form rounded d-none d-md-block">
+                    <form>
+                        <div class="h-100 d-flex flex-wrap flex-lg-column justify-content-lg-between">
+                            <h3 class="headline-3 col-12 mb-3 mb-lg-0">Поиск по аукционам</h3>
+                            <div class="col-12 col-md-6 col-lg-auto mb-3 mb-lg-0 px-2 px-lg-0">
+                                <input class="w-100" type="text" placeholder="Номер аукциона">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-auto mb-3 mb-lg-0 px-2 px-lg-0">
+                                <input class="w-100" type="text" placeholder="Наименование товара">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-auto mb-3 mb-lg-0 px-2 px-lg-0">
+                                <input class="w-100" type="text" placeholder="Срок подачи заявки">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-auto mb-3 mb-lg-0 px-2 px-lg-0">
+                                <input class="w-100" type="text" placeholder="Дата начала торгов">
+                            </div>
+                            <div class="col-12 col-lg-auto">
+                                <button class="btn w-100">Искать</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="quotes my-4 my-lg-5 pb-3 pb-lg-5">
+            <h2 class="headline-2 mb-4 mb-lg-5">Котировки товарных фьючерсов в реальном времени</h2>
+            <div class="quote-item white-wrapper py-4 py-lg-5 px-3 px-lg-4 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center pb-3 pb-lg-4">
+                    <h3 class="headline-3">Золото</h3>
+                    <a class="accent main-semibold d-flex align-items-center" href="#">
+                        Подробнее о котировках
+                        <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="table-responsive-md pb-3 pb-lg-4">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Источник котировок</th>
+                                <th scope="col">Месяц</th>
+                                <th scope="col">Цена</th>
+                                <th scope="col">Изменение</th>
+                                <th scope="col">Изменение (%)</th>
+                                <th scope="col">Время</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-ca.png" alt="">
+                                        Thomson Reuters
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 300,81 $</td>
+                                <td class="success">+0,093</td>
+                                <td class="success">+ 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-us.png" alt="">
+                                        Dow Jones Industrial
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 298,29 $</td>
+                                <td class="success">+0,093</td>
+                                <td class="success">+ 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-ru.png" alt="">
+                                        Московская биржа
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 291,21 $</td>
+                                <td class="success">+0,093</td>
+                                <td class="success">+ 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="d-flex justify-content-end align-items-center">
+                    <p class="auxiliary-grey">
+                        Источник:
+                        <a class="accent d-inline-block" href="#">
+                            Investing.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="quote-item white-wrapper py-4 py-lg-5 px-3 px-lg-4 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center pb-3 pb-lg-4">
+                    <h3 class="headline-3">Серебро</h3>
+                    <a class="accent main-semibold d-flex align-items-center" href="#">
+                        Подробнее о котировках
+                        <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="table-responsive-md pb-3 pb-lg-4">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Источник котировок</th>
+                                <th scope="col">Месяц</th>
+                                <th scope="col">Цена</th>
+                                <th scope="col">Изменение</th>
+                                <th scope="col">Изменение (%)</th>
+                                <th scope="col">Время</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-ca.png" alt="">
+                                        Thomson Reuters
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 300,81 $</td>
+                                <td class="error">-0,093</td>
+                                <td class="error">- 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-us.png" alt="">
+                                        Dow Jones Industrial
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 298,29 $</td>
+                                <td class="error">-0,093</td>
+                                <td class="error">- 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-ru.png" alt="">
+                                        Московская биржа
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 291,21 $</td>
+                                <td class="error">-0,093</td>
+                                <td class="error">- 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="d-flex justify-content-end align-items-center">
+                    <p class="auxiliary-grey">
+                        Источник:
+                        <a class="accent d-inline-block" href="#">
+                            Investing.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="quote-item white-wrapper py-4 py-lg-5 px-3 px-lg-4 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center pb-3 pb-lg-4">
+                    <h3 class="headline-3">Нефть WTI</h3>
+                    <a class="accent main-semibold d-flex align-items-center" href="#">
+                        Подробнее о котировках
+                        <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="table-responsive-md pb-3 pb-lg-4">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Источник котировок</th>
+                                <th scope="col">Месяц</th>
+                                <th scope="col">Цена</th>
+                                <th scope="col">Изменение</th>
+                                <th scope="col">Изменение (%)</th>
+                                <th scope="col">Время</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-ca.png" alt="">
+                                        Thomson Reuters
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 300,81 $</td>
+                                <td class="success">+0,093</td>
+                                <td class="success">+ 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-us.png" alt="">
+                                        Dow Jones Industrial
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 298,29 $</td>
+                                <td class="success">+0,093</td>
+                                <td class="success">+ 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-ru.png" alt="">
+                                        Московская биржа
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 291,21 $</td>
+                                <td class="success">+0,093</td>
+                                <td class="success">+ 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="d-flex justify-content-end align-items-center">
+                    <p class="auxiliary-grey">
+                        Источник:
+                        <a class="accent d-inline-block" href="#">
+                            Investing.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="quote-item white-wrapper py-4 py-lg-5 px-3 px-lg-4 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center pb-3 pb-lg-4">
+                    <h3 class="headline-3">Уголь</h3>
+                    <a class="accent main-semibold d-flex align-items-center" href="#">
+                        Подробнее о котировках
+                        <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="table-responsive-md pb-3 pb-lg-4">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Источник котировок</th>
+                                <th scope="col">Месяц</th>
+                                <th scope="col">Цена</th>
+                                <th scope="col">Изменение</th>
+                                <th scope="col">Изменение (%)</th>
+                                <th scope="col">Время</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-ca.png" alt="">
+                                        Thomson Reuters
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 300,81 $</td>
+                                <td class="error">-0,093</td>
+                                <td class="error">- 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-us.png" alt="">
+                                        Dow Jones Industrial
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 298,29 $</td>
+                                <td class="error">-0,093</td>
+                                <td class="error">- 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="me-2" src="img/i-flag-ru.png" alt="">
+                                        Московская биржа
+                                    </div>
+                                </td>
+                                <td>Январь, 2022</td>
+                                <td>2 291,21 $</td>
+                                <td class="error">-0,093</td>
+                                <td class="error">- 5,268 %</td>
+                                <td>10/06</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="d-flex justify-content-end align-items-center">
+                    <p class="auxiliary-grey">
+                        Источник:
+                        <a class="accent d-inline-block" href="#">
+                            Investing.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="btn btn-light" href="#">
+                    Смотреть все товары
+                </a>
+            </div>
+        </div>
+
+        <div class="auction my-4 my-lg-5 pb-3 pb-lg-5">
+            <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 mb-lg-5">
+                <h2 class="headline-2">Текущие аукционы</h2>
+                <a class="accent main-semibold d-flex align-items-center" href="#">
+                    Все аукционы
+                    <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                    </svg>
+                </a>
+            </div>
+            <div class="auction-item white-wrapper py-4 py-lg-5 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 mb-lg-4">
+                    <span class="bg-deviders px-3 px-lg-5 py-2 py-lg-3">Продолжается прием заявок</span>
+                    <a class="accent main-semibold px-3 px-lg-5" href="#">Посмотреть документы</a>
+                </div>
+                <div class="auction-title px-3 px-lg-5 mb-3 mb-lg-4">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="auxiliary-grey me-2">Номер аукциона:</span>
+                        <p class="main-semibold">T-0097559/1</p>
+                    </div>
+                    <h3 class="headline-3">Запасные части к вентиляционному оборудованию</h3>
+                </div>
+                <div class="auction-body row px-3 px-lg-5">
+                    <div class="col-12 col-md-6">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Стартовая сумма:</span>
+                            <h4 class="headline-4">4 907 823,00 ₸</h4>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Режим торга:</span>
+                            <p class="main-semibold">Аукцион на понижение</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Инициатор:</span>
+                            <p class="main-semibold">ТОО Казфосфат, 991040000313</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-0">
+                            <span class="auxiliary-grey mb-1">Брокер:</span>
+                            <p class="main-semibold">ТОО Steppe Nomad (CSND), 8707-111-38-62, 8708-439-87-76 </p>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-5">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Начало приема заявок: </span>
+                            <p class="main-semibold">01.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Окончание приема заявок: </span>
+                            <p class="main-semibold">16.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Начало торгов: </span>
+                            <p class="main-semibold">17.06.2022, 14:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="auction-item white-wrapper py-4 py-lg-5 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 mb-lg-4">
+                    <span class="bg-deviders px-3 px-lg-5 py-2 py-lg-3">Продолжается прием заявок</span>
+                    <a class="accent main-semibold px-3 px-lg-5" href="#">Посмотреть документы</a>
+                </div>
+                <div class="auction-title px-3 px-lg-5 mb-3 mb-lg-4">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="auxiliary-grey me-2">Номер аукциона:</span>
+                        <p class="main-semibold">T-0097559/1</p>
+                    </div>
+                    <h3 class="headline-3">Запасные части к вентиляционному оборудованию</h3>
+                </div>
+                <div class="auction-body row px-3 px-lg-5">
+                    <div class="col-12 col-md-6">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Стартовая сумма:</span>
+                            <h4 class="headline-4">4 907 823,00 ₸</h4>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Режим торга:</span>
+                            <p class="main-semibold">Аукцион на понижение</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Инициатор:</span>
+                            <p class="main-semibold">ТОО Казфосфат, 991040000313</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-0">
+                            <span class="auxiliary-grey mb-1">Брокер:</span>
+                            <p class="main-semibold">ТОО Steppe Nomad (CSND), 8707-111-38-62, 8708-439-87-76 </p>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-5">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Начало приема заявок: </span>
+                            <p class="main-semibold">01.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Окончание приема заявок: </span>
+                            <p class="main-semibold">16.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Начало торгов: </span>
+                            <p class="main-semibold">17.06.2022, 14:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="auction-item white-wrapper py-4 py-lg-5 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 mb-lg-4">
+                    <span class="bg-deviders px-3 px-lg-5 py-2 py-lg-3">Продолжается прием заявок</span>
+                    <a class="accent main-semibold px-3 px-lg-5" href="#">Посмотреть документы</a>
+                </div>
+                <div class="auction-title px-3 px-lg-5 mb-3 mb-lg-4">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="auxiliary-grey me-2">Номер аукциона:</span>
+                        <p class="main-semibold">T-0097559/1</p>
+                    </div>
+                    <h3 class="headline-3">Запасные части к вентиляционному оборудованию</h3>
+                </div>
+                <div class="auction-body row px-3 px-lg-5">
+                    <div class="col-12 col-md-6">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Стартовая сумма:</span>
+                            <h4 class="headline-4">4 907 823,00 ₸</h4>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Режим торга:</span>
+                            <p class="main-semibold">Аукцион на понижение</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Инициатор:</span>
+                            <p class="main-semibold">ТОО Казфосфат, 991040000313</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-0">
+                            <span class="auxiliary-grey mb-1">Брокер:</span>
+                            <p class="main-semibold">ТОО Steppe Nomad (CSND), 8707-111-38-62, 8708-439-87-76 </p>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-5">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Начало приема заявок: </span>
+                            <p class="main-semibold">01.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Окончание приема заявок: </span>
+                            <p class="main-semibold">16.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Начало торгов: </span>
+                            <p class="main-semibold">17.06.2022, 14:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="auction-item white-wrapper py-4 py-lg-5 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 mb-lg-4">
+                    <span class="bg-deviders px-3 px-lg-5 py-2 py-lg-3">Продолжается прием заявок</span>
+                    <a class="accent main-semibold px-3 px-lg-5" href="#">Посмотреть документы</a>
+                </div>
+                <div class="auction-title px-3 px-lg-5 mb-3 mb-lg-4">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="auxiliary-grey me-2">Номер аукциона:</span>
+                        <p class="main-semibold">T-0097559/1</p>
+                    </div>
+                    <h3 class="headline-3">Запасные части к вентиляционному оборудованию</h3>
+                </div>
+                <div class="auction-body row px-3 px-lg-5">
+                    <div class="col-12 col-md-6">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Стартовая сумма:</span>
+                            <h4 class="headline-4">4 907 823,00 ₸</h4>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Режим торга:</span>
+                            <p class="main-semibold">Аукцион на понижение</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Инициатор:</span>
+                            <p class="main-semibold">ТОО Казфосфат, 991040000313</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-0">
+                            <span class="auxiliary-grey mb-1">Брокер:</span>
+                            <p class="main-semibold">ТОО Steppe Nomad (CSND), 8707-111-38-62, 8708-439-87-76 </p>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-5">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Начало приема заявок: </span>
+                            <p class="main-semibold">01.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Окончание приема заявок: </span>
+                            <p class="main-semibold">16.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Начало торгов: </span>
+                            <p class="main-semibold">17.06.2022, 14:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="auction-item white-wrapper py-4 py-lg-5 mb-3 mb-lg-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 mb-lg-4">
+                    <span class="bg-deviders px-3 px-lg-5 py-2 py-lg-3">Продолжается прием заявок</span>
+                    <a class="accent main-semibold px-3 px-lg-5" href="#">Посмотреть документы</a>
+                </div>
+                <div class="auction-title px-3 px-lg-5 mb-3 mb-lg-4">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="auxiliary-grey me-2">Номер аукциона:</span>
+                        <p class="main-semibold">T-0097559/1</p>
+                    </div>
+                    <h3 class="headline-3">Запасные части к вентиляционному оборудованию</h3>
+                </div>
+                <div class="auction-body row px-3 px-lg-5">
+                    <div class="col-12 col-md-6">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Стартовая сумма:</span>
+                            <h4 class="headline-4">4 907 823,00 ₸</h4>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Режим торга:</span>
+                            <p class="main-semibold">Аукцион на понижение</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Инициатор:</span>
+                            <p class="main-semibold">ТОО Казфосфат, 991040000313</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-0">
+                            <span class="auxiliary-grey mb-1">Брокер:</span>
+                            <p class="main-semibold">ТОО Steppe Nomad (CSND), 8707-111-38-62, 8708-439-87-76 </p>
+                        </div>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-5">
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Начало приема заявок: </span>
+                            <p class="main-semibold">01.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Окончание приема заявок: </span>
+                            <p class="main-semibold">16.06.2022, 13:00</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Начало торгов: </span>
+                            <p class="main-semibold">17.06.2022, 14:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="attention my-4 my-lg-5 pb-3 pb-lg-5">
+            <div class="attention-slide attention-slide-1 d-flex align-items-center rounded px-4 px-lg-5">
+                <div class="row px-4 px-lg-5">
+                    <div class="col-12 col-lg-7">
+                        <h1 class="headline-1 primary-white pb-3 pb-lg-4">Получите электронную цифровую подпись
+                            уже сейчас</h1>
+                        <p class="primary-white pb-3 pb-lg-4">Подпись даст вам возможность торговать на бирже
+                            и подписывать все необходимые документы онлайн!</p>
+                        <a class="btn btn-long" href="#">
+                            Получить ЭЦП
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sales my-4 my-lg-5 pb-3 pb-lg-5">
+            <h2 class="headline-2 mb-4 mb-lg-5">Объемы торгов за текущий год</h2>
+            <div class="row">
+                <div class="sales-item col-12 col-sm-6 col-md-4 mb-3 mb-lg-4">
+                    <div class="white-wrapper p-4 p-lg-5">
+                        <h3 class="headline-3 mb-3 mb-lg-4">Золото</h3>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Всего продано тонн:</span>
+                            <p class="headline-3">636 943</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Общая сумма продаж:</span>
+                            <p class="headline-3">4 907 823,00 ₸</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-item col-12 col-sm-6 col-md-4 mb-3 mb-lg-4">
+                    <div class="white-wrapper p-4 p-lg-5">
+                        <h3 class="headline-3 mb-3 mb-lg-4">Серебро</h3>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Всего продано тонн:</span>
+                            <p class="headline-3">636 943</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Общая сумма продаж:</span>
+                            <p class="headline-3">4 907 823,00 ₸</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-item col-12 col-sm-6 col-md-4 mb-3 mb-lg-4">
+                    <div class="white-wrapper p-4 p-lg-5">
+                        <h3 class="headline-3 mb-3 mb-lg-4">Алюминий</h3>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Всего продано тонн:</span>
+                            <p class="headline-3">636 943</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Общая сумма продаж:</span>
+                            <p class="headline-3">4 907 823,00 ₸</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-item col-12 col-sm-6 col-md-4 mb-3 mb-lg-4">
+                    <div class="white-wrapper p-4 p-lg-5">
+                        <h3 class="headline-3 mb-3 mb-lg-4">Нефть</h3>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Всего продано тонн:</span>
+                            <p class="headline-3">636 943</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Общая сумма продаж:</span>
+                            <p class="headline-3">4 907 823,00 ₸</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-item col-12 col-sm-6 col-md-4 mb-3 mb-lg-4">
+                    <div class="white-wrapper p-4 p-lg-5">
+                        <h3 class="headline-3 mb-3 mb-lg-4">Уголь</h3>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1">Всего продано тонн:</span>
+                            <p class="headline-3">636 943</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Общая сумма продаж:</span>
+                            <p class="headline-3">4 907 823,00 ₸</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-item col-12 col-sm-6 col-md-4 mb-3 mb-lg-4">
+                    <div class="main-bg-dark p-4 p-lg-5 borders rounded">
+                        <h3 class="headline-3 mb-3 mb-lg-4 primary-white">Всего продаж</h3>
+                        <div class="d-flex flex-column mb-2 mb-lg-3">
+                            <span class="auxiliary-grey mb-1 primary-white">Всего продано тонн:</span>
+                            <p class="headline-3 primary-white">636 943</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1 primary-white">Общая сумма продаж:</span>
+                            <p class="headline-3 primary-white">4 907 823,00 ₸</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sales my-4 my-lg-5 pb-3 pb-lg-5">
+            <h2 class="headline-2 mb-4 mb-lg-5">Наши партнеры</h2>
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center col-6 col-lg-3 mb-3 mb-lg-5">
+                    <img src="img/p-1.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-center col-6 col-lg-3 mb-3 mb-lg-5">
+                    <img src="img/p-2.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-center col-6 col-lg-3 mb-3 mb-lg-5">
+                    <img src="img/p-3.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-center col-6 col-lg-3 mb-3 mb-lg-5">
+                    <img src="img/p-4.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-center col-6 col-lg-3 mb-3 mb-lg-5">
+                    <img src="img/p-5.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-center col-6 col-lg-3 mb-3 mb-lg-5">
+                    <img src="img/p-6.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-center col-6 col-lg-3 mb-3 mb-lg-5">
+                    <img src="img/p-7.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-center col-6 col-lg-3 mb-3 mb-lg-5">
+                    <img src="img/p-8.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="attention my-4 my-lg-5 pb-3 pb-lg-5">
+            <div class="attention-slide attention-slide-2 d-flex align-items-center rounded px-4 px-lg-5">
+                <div class="row px-4 px-lg-5">
+                    <div class="col-12 col-lg-7">
+                        <h1 class="headline-1 primary-white pb-3 pb-lg-4">Станьте нашим партенером прямо сейчас</h1>
+                        <p class="primary-white pb-3 pb-lg-4">Мы постоянно предлагаем нашим партнерам выгодные
+                            предложения касательно торговли на рынке!</p>
+                        <a class="btn btn-long" href="#">
+                            Стать партнером
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news my-4 my-lg-5 pb-3 pb-lg-5">
+            <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 mb-lg-5">
+                <h2 class="headline-2">Последние новости</h2>
+                <a class="accent main-semibold d-flex align-items-center" href="#">
+                    Все новости
+                    <svg class="ms-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 20L16 12L8 4" stroke="#BDAB84" stroke-width="2" />
+                    </svg>
+                </a>
+            </div>
+            <div class="news-item white-wrapper p-4 p-lg-5 mb-3 mb-lg-4">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0 rounded overflow-hidden">
+                        <img class="w-100 w-md-auto " src="img/n-pic-1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9 d-flex flex-column justify-content-between">
+                        <span class="auxiliary-grey mb-1">26 сентября, 2022 г.</span>
+                        <a href="#">
+                            <h3 class="headline-3">С 2024 года уставный капитал для товарных бирж будет повышен</h3>
+                        </a>
+                        <p class="auxiliary-grey mb-1">Через два года на рынке товарных бирж ожидаются изменения. Одно
+                            из них — с марта 2024 года в два раза будет повышен уставный капитал для таких бирж. По
+                            словам президента товарной...</p>
+                        <div class="filtr">
+                            <a class="d-inline-block bg-deviders primary-black rounded" href="#">Новости биржи</a>
+                            <a class="d-inline-block bg-deviders primary-black rounded ms-0 ms-sm-2 mt-2 mt-sm-0"
+                                href="#">Финансы</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item white-wrapper p-4 p-lg-5 mb-3 mb-lg-4">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0 rounded overflow-hidden">
+                        <img class="w-100 w-md-auto " src="img/n-pic-2.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9 d-flex flex-column justify-content-between">
+                        <span class="auxiliary-grey mb-1">26 сентября, 2022 г.</span>
+                        <a href="#">
+                            <h3 class="headline-3">С 2024 года уставный капитал для товарных бирж будет повышен</h3>
+                        </a>
+                        <p class="auxiliary-grey mb-1">Через два года на рынке товарных бирж ожидаются изменения. Одно
+                            из них — с марта 2024 года в два раза будет повышен уставный капитал для таких бирж. По
+                            словам президента товарной...</p>
+                        <div class="filtr">
+                            <a class="d-inline-block bg-deviders primary-black rounded" href="#">Новости биржи</a>
+                            <a class="d-inline-block bg-deviders primary-black rounded ms-0 ms-sm-2 mt-2 mt-sm-0"
+                                href="#">Финансы</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item white-wrapper p-4 p-lg-5 mb-3 mb-lg-4">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0 rounded overflow-hidden">
+                        <img class="w-100 w-md-auto " src="img/n-pic-3.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9 d-flex flex-column justify-content-between">
+                        <span class="auxiliary-grey mb-1">26 сентября, 2022 г.</span>
+                        <a href="#">
+                            <h3 class="headline-3">С 2024 года уставный капитал для товарных бирж будет повышен</h3>
+                        </a>
+                        <p class="auxiliary-grey mb-1">Через два года на рынке товарных бирж ожидаются изменения. Одно
+                            из них — с марта 2024 года в два раза будет повышен уставный капитал для таких бирж. По
+                            словам президента товарной...</p>
+                        <div class="filtr">
+                            <a class="d-inline-block bg-deviders primary-black rounded" href="#">Новости биржи</a>
+                            <a class="d-inline-block bg-deviders primary-black rounded ms-0 ms-sm-2 mt-2 mt-sm-0"
+                                href="#">Финансы</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item white-wrapper p-4 p-lg-5 mb-3 mb-lg-4">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0 rounded overflow-hidden">
+                        <img class="w-100 w-md-auto " src="img/n-pic-4.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9 d-flex flex-column justify-content-between">
+                        <span class="auxiliary-grey mb-1">26 сентября, 2022 г.</span>
+                        <a href="#">
+                            <h3 class="headline-3">С 2024 года уставный капитал для товарных бирж будет повышен</h3>
+                        </a>
+                        <p class="auxiliary-grey mb-1">Через два года на рынке товарных бирж ожидаются изменения. Одно
+                            из них — с марта 2024 года в два раза будет повышен уставный капитал для таких бирж. По
+                            словам президента товарной...</p>
+                        <div class="filtr">
+                            <a class="d-inline-block bg-deviders primary-black rounded" href="#">Новости биржи</a>
+                            <a class="d-inline-block bg-deviders primary-black rounded ms-0 ms-sm-2 mt-2 mt-sm-0"
+                                href="#">Финансы</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item white-wrapper p-4 p-lg-5 mb-3 mb-lg-4">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3 mb-3 mb-md-0 rounded overflow-hidden">
+                        <img class="w-100 w-md-auto " src="img/n-pic-5.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9 d-flex flex-column justify-content-between">
+                        <span class="auxiliary-grey mb-1">26 сентября, 2022 г.</span>
+                        <a href="#">
+                            <h3 class="headline-3">С 2024 года уставный капитал для товарных бирж будет повышен</h3>
+                        </a>
+                        <p class="auxiliary-grey mb-1">Через два года на рынке товарных бирж ожидаются изменения. Одно
+                            из них — с марта 2024 года в два раза будет повышен уставный капитал для таких бирж. По
+                            словам президента товарной...</p>
+                        <div class="filtr">
+                            <a class="d-inline-block bg-deviders primary-black rounded" href="#">Новости биржи</a>
+                            <a class="d-inline-block bg-deviders primary-black rounded ms-0 ms-sm-2 mt-2 mt-sm-0"
+                                href="#">Финансы</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Шаблон низ -->
+
+        <div class="contact-us my-4 my-lg-5 pb-3 pb-lg-5">
+            <h2 class="headline-2 mb-4 mb-lg-5">Есть вопросы? Свяжитесь с нами, мы поможем их решить!</h2>
+            <div class="row">
+                <div class="d-flex flex-column justify-content-between col-md-6 col-12">
+                    <div class="contact-info">
+                        <h3 class="headline-3 my-1">Заполните форму, мы вам перезвоним</h3>
+                        <p class="auxiliary-grey">Мы получим заявку и свяжемся с вами в ближайшее время</p>
+                    </div>
+                    <form>
+                        <div class="d-flex flex-column mt-3 mt-lg-5 w-80">
+                            <input class="d-block mb-3 mb-lg-4" type="text" name="" required="required"
+                                placeholder="Ваше имя">
+                            <input class="d-block mb-4 mb-lg-5" type="text" name="" required="required"
+                                placeholder="Ваш номер телефона">
+                            <button class="btn d-block" type="submit">Отправить заявку</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="d-flex flex-column justify-content-between col-md-6 col-12 mt-4 mt-md-0">
+                    <div class="contact-info">
+                        <h3 class="headline-3 my-1">Или свяжитесь с нами напрямую</h3>
+                        <p class="auxiliary-grey">Звоните, пишите или приходите в наш офис!</p>
+                    </div>
+                    <div class="mt-3 mt-lg-5">
+                        <div class="d-flex flex-column mb-3 mb-lg-4 pb-2 pb-lg-3">
+                            <span class="auxiliary-grey mb-1">Адрес</span>
+                            <p class="main-semibold">Республика Казахстан, 010000, г. Нур-Султан,<br>БЦ "Uly Dala Plaza"
+                                ул. Б. Майлина 37, каб. 512</p>
+                        </div>
+                        <div class="d-flex flex-column mb-3 mb-lg-4 pb-2 pb-lg-3">
+                            <span class="auxiliary-grey mb-1">Телефон</span>
+                            <p class="main-semibold">+7 (771)217-01-00</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="auxiliary-grey mb-1">Email</span>
+                            <p class="main-semibold">quce.kz@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer main-bg-dark py-3 py-md-5">
+        <a class="btn-to-top" href="#">Back to top</a>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-3 mb-md-5">
+                <a class="d-inline-block me-3" href="#">
+                    <img src="img/logo-w.png" alt="">
+                </a>
+                <div class="d-flex justify-content-between align-items-center">
+                    <a class="main-semibold accent d-flex align-items-center me-3 me-lg-5" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21 21L15.6569 15.6569M15.6569 15.6569C17.1046 14.2091 18 12.2091 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18C12.2091 18 14.2091 17.1046 15.6569 15.6569Z"
+                                stroke="white" stroke-width="2" stroke-linecap="square" />
+                        </svg>
+                    </a>
+                    <div class="d-flex">
+                        <p class="d-flex align-items-center primary-white main-semibold">
+                            <svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z"
+                                    fill="#F8F8F8" />
+                                <path
+                                    d="M23.2536 16.174C23.736 14.874 24 13.4679 24 12.0001C24 10.5322 23.736 9.12616 23.2536 7.82617H0.746391C0.264047 9.12616 0 10.5322 0 12.0001C0 13.4679 0.264047 14.874 0.746391 16.174L12 17.2174L23.2536 16.174Z"
+                                    fill="#0052B4" />
+                                <path
+                                    d="M11.9999 23.9999C17.1595 23.9999 21.558 20.7434 23.2536 16.1738H0.746338C2.44185 20.7434 6.84037 23.9999 11.9999 23.9999Z"
+                                    fill="#D80027" />
+                            </svg>
+                            RU
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr mb-3 mb-lg-5">
+            <div class="row mb-3 mb-lg-5">
+                <div class="col-lg-3 col-sm-6 col-12 mb-4 mb-lg-0">
+                    <h3 class="headline-3 primary-white mb-3 mb-md-4">Карта сайта</h3>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Тарифы</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Брокеры</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Документы</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Новости</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Клиринг</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Биржевой арбитраж</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Политика конфиденциальности</a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-4 mb-lg-0">
+                    <h3 class="headline-3 primary-white mb-3 mb-md-4">Товары</h3>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Золото</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Серебро</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Нефть</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Уголь</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Алюминий</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Сжиженный газ</a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-4 mb-lg-0">
+                    <h3 class="headline-3 primary-white mb-3 mb-md-4">О бирже</h3>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Общая информация</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Лицензии и сертификаты</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Финансовая отчетность</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Вакансии</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Часто задаваемые вопросы</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Реквизиты</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Контакты</a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-0 mb-lg-0">
+                    <h3 class="headline-3 primary-white mb-3 mb-md-4">Торги</h3>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Покупки</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Продажи</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Расписание торгов</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Покупки по апрель 2022 г.</a>
+                    <a class="d-block primary-white mb-2 mb-lg-3" href="#">Покупки по декабрь 2021 г.</a>
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="row mt-3 mt-md-5">
+                <div class="col-12 d-flex justify-content-between align-items-center">
+                    <p class="d-inline-block primary-white">© 2022. Qazaqstan Universal Commodity Exchange</p>
+                    <p class="d-inline-block primary-white">
+                        Сделано в
+                        <a class="d-inline-block" href="#"><img src="img/equator.png" alt=""></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay: {
+                delay: 10000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
